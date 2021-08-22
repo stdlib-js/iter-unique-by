@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/iter-unique-by",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Create an iterator which returns unique values according to a predicate function.",
   "license": "Apache-2.0",
   "author": {
