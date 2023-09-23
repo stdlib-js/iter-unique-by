@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import iterUniqueBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-unique-by@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/iter-unique-by/tags). For example,
+
+```javascript
 import iterUniqueBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-unique-by@v0.1.0-esm/index.mjs';
 ```
 
@@ -182,7 +187,7 @@ bool = ( ctx.count > 0 );
 <script type="module">
 
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-iter-discrete-uniform@esm/index.mjs';
-import iterUniqueBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-unique-by@v0.1.0-esm/index.mjs';
+import iterUniqueBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-unique-by@esm/index.mjs';
 
 function predicate( a, b ) {
     return ( a !== b );
