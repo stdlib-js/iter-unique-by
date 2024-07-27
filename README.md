@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import iterUniqueBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-unique-by@deno/mod.js';
+import iterUniqueBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-unique-by@v0.2.2-deno/mod.js';
 ```
 
 #### iterUniqueBy( iterator, predicate\[, thisArg] )
@@ -177,7 +177,7 @@ bool = ( ctx.count > 0 );
 
 ```javascript
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-iter-discrete-uniform@deno/mod.js';
-import iterUniqueBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-unique-by@deno/mod.js';
+import iterUniqueBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-unique-by@v0.2.2-deno/mod.js';
 
 function predicate( a, b ) {
     return ( a !== b );
