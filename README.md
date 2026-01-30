@@ -112,8 +112,8 @@ The returned [iterator][mdn-iterator-protocol] protocol-compliant object has the
 
 A `predicate` function is provided two arguments:
 
--   **a**: a previously identified unique value
--   **b**: the value whose uniqueness is being determined
+-   **a**: a previously identified unique value.
+-   **b**: the value whose uniqueness is being determined.
 
 To set the execution context of the `predicate` function, provide a `thisArg`.
 
@@ -274,7 +274,7 @@ See [LICENSE][stdlib-license].
 
 ## Copyright
 
-Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
+Copyright &copy; 2016-2026. The Stdlib [Authors][stdlib-authors].
 
 </section>
 
@@ -300,8 +300,8 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 
 -->
 
-[chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
-[chat-url]: https://app.gitter.im/#/room/#stdlib-js_stdlib:gitter.im
+[chat-image]: https://img.shields.io/badge/zulip-join_chat-brightgreen.svg
+[chat-url]: https://stdlib.zulipchat.com
 
 [stdlib]: https://github.com/stdlib-js/stdlib
 
